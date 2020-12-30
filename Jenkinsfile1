@@ -7,7 +7,7 @@ pipeline {
             steps {
             javapipeline(
                 branch: "master",
-                url: "https://github.com/rxa80330/java-hello-world-webapp.git"
+                url: "https://https://github.com/itaifrenkel/java-hello-world-webapp.git"
             )
             }
     }
