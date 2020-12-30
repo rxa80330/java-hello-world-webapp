@@ -1,5 +1,5 @@
 @Library('jenkins-shared-library@master') _
-def call(Map stageParams) {
+def call() {
 pipeline {
     agent any
     stages {
