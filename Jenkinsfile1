@@ -1,0 +1,15 @@
+@Library('jenkins-shared-library@master') _
+
+pipeline {
+    agent any
+    stages {
+        stage('Git Checkout') {
+            steps {
+            javapipeline(
+                branch: "master",
+                url: "https://https://github.com/itaifrenkel/java-hello-world-webapp.git"
+            )
+            }
+    }
+    }
+}
